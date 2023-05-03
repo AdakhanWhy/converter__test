@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+
+    background: red;
+}
+
+.conv__params {
+    width: 15%;
+    margin: 30px auto;
+}
+
+.conv__inp {
+    width: 100%;
+}
+
+.conv__select {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.conv__output {
+    text-align: center;
+    line-height: 20vh;
+
+    width: 60%;
+    height: 20vh;
+    margin: 20px auto;
+
+    border: 2px solid white;
+    border-radius: 25px;
+
+    background: black;
+
+    color: white;
+    font-size: 30px;
+}
